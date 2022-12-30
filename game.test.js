@@ -11,7 +11,7 @@ test('neighbors returned after using countNeighbors', () => {
 
     //three neighbors
     field = [[1,1,1,0], [0,0,0,0], [0,0,0,0], [0,0,0,0]];
-    expect(countNeighbors(field, 1, 1)).toBe(2);
+    expect(countNeighbors(field, 1, 1)).toBe(3);
 });
 
 
